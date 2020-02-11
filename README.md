@@ -23,12 +23,15 @@ Reference:<a href="https://learning.getpostman.com/docs/postman/scripts/postman_
                                 newman run RestfulBookerAPIBuildVerificationTest.postman_collection.json -e Local.postman_environment.json
                                 
     This will generate a basic report like below that how many scripts ran and how many assertions there were and how many failed, and it breaks down all the failures. 
-  ![image](https://drive.google.com/uc?export=view&id=1vaymdBh6bqz3cak_Efuy2unHeKvJePyk)
+    
+    ![image](https://drive.google.com/uc?export=view&id=1mgFbrgo6Ct2cU6BaZxfDWMugW8v0c3_T)
 
   5.   In order to run postman collection on jenkins, referred this site: <a href="https://www.toolsqa.com/postman/run-postman-collection-on-jenkins/"> toolsqa</a> and the jenkins report will be like below:
-  ![image](https://drive.google.com/uc?export=view&id=1--ZWYXQ7Zts1RiviJaCrSLo7-UTB6zcQ)
+  ![image2](https://drive.google.com/uc?export=view&id=1--ZWYXQ7Zts1RiviJaCrSLo7-UTB6zcQ)
   
 Note:
-Configured the jenkins job like below:
-   ![image](https://drive.google.com/uc?export=view&id=1ojzWVrRTXoV2aUx9k0-U4wkBObCjKMue)
+Configured the jenkins job like below
+
+![image3](https://drive.google.com/uc?export=view&id=1ojzWVrRTXoV2aUx9k0-U4wkBObCjKMue)
+   
 For reporting, two different reporters are used 1) to the command line 2) junit style and finally display the test results, exportm them as a XML file(result.xml)
