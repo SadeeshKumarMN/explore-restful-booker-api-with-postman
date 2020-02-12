@@ -24,14 +24,14 @@ Reference:<a href="https://learning.getpostman.com/docs/postman/scripts/postman_
                                 
     This will generate a basic report like below that how many scripts ran and how many assertions there were and how many failed, and it breaks down all the failures.
     
-    ![](https://drive.google.com/uc?export=view&id=1mgFbrgo6Ct2cU6BaZxfDWMugW8v0c3_T)
+    ![img](https://drive.google.com/uc?export=view&id=1mgFbrgo6Ct2cU6BaZxfDWMugW8v0c3_T)
 
   5.   In order to run postman collection on jenkins, referred this site: <a href="https://www.toolsqa.com/postman/run-postman-collection-on-jenkins/"> toolsqa</a> and the jenkins report will be like below.
   
-  ![img](https://drive.google.com/uc?export=view&id=1--ZWYXQ7Zts1RiviJaCrSLo7-UTB6zcQ)
+  ![imga](https://drive.google.com/uc?export=view&id=1--ZWYXQ7Zts1RiviJaCrSLo7-UTB6zcQ)
   
-Note:
-Configured the jenkins job like below.
-![image](https://drive.google.com/uc?export=view&id=1ojzWVrRTXoV2aUx9k0-U4wkBObCjKMue)
+Note:Configured the jenkins job like below. 
+
+![imgv](https://drive.google.com/uc?export=view&id=1ojzWVrRTXoV2aUx9k0-U4wkBObCjKMue)
    
 For reporting, two different reporters are used 1) to the command line 2) junit style and finally display the test results, export them as a XML file(result.xml)
